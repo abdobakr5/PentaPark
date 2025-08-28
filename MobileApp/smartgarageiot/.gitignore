@@ -1,0 +1,76 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# IntelliJ / Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Generated files
+pubspec.lock
+*.lock
+*.log
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/.symlinks/
+
+# Android related
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/gradle/
+**/android/app/*.keystore
+**/android/app/*.jks
+
+# Web related
+**/web/.dart_tool/
+**/web/build/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# macOS related
+**/macos/Flutter/ephemeral/
+
+# Google Fonts caching
+.google_fonts/
+
+# Firebase / Google Service files
+google-services.json
+GoogleService-Info.plist
+
+# Miscellaneous
+*.DS_Store
+*.class
+*.lock
+*.log
+*.tmp
+*.swp
+*.swo
+*.out
+*.bak
+*.orig
+*.pyc
+
+lib/helpers/supabase_helper_private.dart
