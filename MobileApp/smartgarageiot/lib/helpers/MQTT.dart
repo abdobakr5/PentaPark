@@ -16,7 +16,7 @@ class MQTTService {
 
   Future<void> connect() async {
     client = MqttServerClient.withPort(
-      '7d838d4406204b7798758a6bc4117f48.s1.eu.hivemq.cloud',
+      'Your URL',
       // HiveMQ broker URL
       'flutter_client_${DateTime.now().millisecondsSinceEpoch}', // Unique client ID
       8883, // Secure MQTT port
@@ -41,7 +41,7 @@ class MQTTService {
       client.onConnected = onConnected; // Callback when connected
 
       print("🔄 Connecting to HiveMQ...");
-      await client.connect("Ahmed", "Am1992005"); // Authenticate with broker
+      await client.connect("Your user", "Password"); // Authenticate with broker
 
       // Check connection status
       if (client.connectionStatus?.state == MqttConnectionState.connected) {
