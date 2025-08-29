@@ -3,10 +3,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 abstract class SupabaseHelper {
   // Project Configuration
   static const String projectUrl =
-      'https://niajwjjmknwlbeybndbq.supabase.co'; // Supabase project URL
+      'YourProjectURL'; // Supabase project URL
   static const String apiKey =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5pYWp3ampta253bGJleWJuZGJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2NTg4NjUsImV4cCI6MjA3MDIzNDg2NX0.t9S41O5wqv4Y6_L9YIPus3Rr1LW2HOQR5f2KrRH27U8'; // Supabase API key
-
+      'YOUR API KEY';
   // Initialize Supabase
   static Future init() async {
     await Supabase.initialize(
